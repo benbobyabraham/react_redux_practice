@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="134" height="40" viewBox="0 0 134 40">
+  <g id="Group_25" data-name="Group 25" transform="translate(-2861 -1374)">
+    <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(2861 1374)" stroke="#000" stroke-width="2">
+      <rect width="134" height="40" stroke="none"/>
+      <rect x="1" y="1" width="132" height="38" fill="none"/>
+    </g>
+    <text id="Very_Good" data-name="Very Good" transform="translate(2906 1407)" fill="#fff" font-size="15" font-family="HiraMinProN-W6, Hiragino Mincho ProN"><tspan x="0" y="0">Very Good</tspan></text>
+    <path id="iconmonstr-heart-thin" d="M12,21.593C6.37,16.054,1,11.3,1,7.191A5.059,5.059,0,0,1,6.281,2C7.593,2,10.432,2.5,12,6.457c1.59-3.968,4.464-4.447,5.726-4.447A5.014,5.014,0,0,1,23,7.191c0,4.069-5.136,8.625-11,14.4M17.726,1.01A6.535,6.535,0,0,0,12,4.248,6.526,6.526,0,0,0,6.281,1,6.044,6.044,0,0,0,0,7.191C0,11.852,5.571,16.62,12,23c6.43-6.38,12-11.148,12-15.809A6.028,6.028,0,0,0,17.726,1.01" transform="translate(2873 1384)" fill="#fff" fill-rule="evenodd"/>
+    <text id="_2_Likes" data-name="2 Likes" transform="translate(2906 1389)" fill="#fff" font-size="10" font-family="HiraMinProN-W6, Hiragino Mincho ProN"><tspan x="0" y="0">2 Likes</tspan></text>
+  </g>
+</svg>

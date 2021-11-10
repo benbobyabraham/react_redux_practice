@@ -1,0 +1,386 @@
+/****************************
+* Common
+*****************************/
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Hiragino Mincho ProN";
+}
+
+h1 {
+  font-size: 30px;
+}
+
+ul.category {
+  padding: 30px 0;
+  display: flex;
+}
+
+ul.category li {
+  list-style: none;
+}
+
+ul.category li a,
+ul.category li a:visited {
+  border: 1px solid #707070;
+  padding: 6px 20px;
+  margin-right: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+ul.category li.active a,
+ul.category li.active a:visited {
+  background-color: black;
+  color: white;
+}
+
+.content {
+  padding: 0px 30px 100px 30px;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .content {
+    padding: 0px 15px 100px 15px;
+  }
+}
+
+/****************************
+* Items 
+*****************************/
+
+ul.items {
+  padding: 20px 0;
+}
+
+ul.items li {
+  list-style: none;
+  display: flex;
+  padding-bottom: 25px;
+}
+
+ul.items li img.item-image {
+  width: 30%;
+  height: fit-content;
+}
+
+ul.items li .info {
+  width: 70%;
+  position: relative;
+  padding: 5px 15px;
+}
+
+ul.items li .info .name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul.items li .info .name-bottom {
+  padding: 10px 0;
+  display: flex;
+}
+
+ul.items li .info .name-bottom img.icon-heart {
+  width: 30px;
+}
+
+ul.items li .info .name-bottom .count {
+  padding: 3px 15px 0 10px;
+}
+
+ul.items li .info .name-bottom button.link-button {
+  background-color: white;
+  border: 0;
+  color: #38a1ed;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+ul.items li .info .info-bottom {
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul.items li .info .info-bottom .price {
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+ul.items li .info .info-bottom .add {
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 5px 25px;
+  cursor: pointer;
+}
+
+ul.items li .info .info-bottom .number {
+  border: 1px solid black;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+ul.items li .info .info-bottom .number .plus,
+ul.items li .info .info-bottom .number .minus,
+ul.items li .info .info-bottom .number .count {
+  padding: 3px;
+}
+
+ul.items li .info .info-bottom .number .plus,
+ul.items li .info .info-bottom .number .minus {
+  padding: 3px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  ul.items {
+    padding: 0;
+  }
+
+  ul.items li .info .name {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  ul.items li .info .name-bottom img.icon-heart {
+    width: 20px;
+  }
+
+  ul.items li .info .name-bottom .count {
+    padding: 7px 10px 0 5px;
+    font-size: 13px;
+  }
+
+  ul.items li .info .name-bottom button.link-button {
+    padding-right: 5px;
+    font-size: 13px;
+  }
+
+  ul.items li .info .info-bottom {
+    position: relative;
+    padding: 5px 0 0 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  ul.items li .info .info-bottom .price {
+    padding-top: 5px;
+    font-size: 15px;
+  }
+
+  ul.items li .info .info-bottom .add {
+    font-size: 14px;
+    padding: 0px 15px;
+    line-height: 24px;
+  }
+
+  ul.items li .info .info-bottom .number {
+    font-size: 14px;
+    padding: 0px 5px;
+    line-height: 24px;
+  }
+}
+
+/****************************
+* Header
+*****************************/
+
+header img {
+  width: 150px;
+  padding: 10px;
+}
+
+/****************************
+* footer 
+*****************************/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 0px;
+  background-color: white;
+  z-index: 2;
+  border: 1px solid gray;
+  width: 100%;
+}
+
+footer .subtotal {
+  font-size: 20px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+footer button {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  border: 0;
+  padding: 15px 25px;
+  font-size: 15px;
+  font-family: "Hiragino Mincho ProN";
+  cursor: pointer;
+}
+
+footer button.link-button {
+  color: #1c7bfd;
+  background-color: white;
+  font-size: 20px;
+  padding: 5px 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+  footer .subtotal {
+    font-size: 15px;
+  }
+  footer button.link-button {
+    font-size: 14px;
+  }
+}
+
+/****************************
+* Home
+*****************************/
+
+.home .main-visual img {
+  width: 100%;
+}
+
+.home .main-visual img {
+  width: 100%;
+}
+
+/****************************
+* Popup 
+*****************************/
+
+.popup {
+  background-color: rgba(0, 0, 0, 0.514);
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.popup .popup-content {
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  padding: 0 20px;
+  max-height: 60%;
+}
+
+.popup h2 {
+  font-size: 22px;
+}
+
+.popup .cross {
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.popup ul.reactions {
+  display: flex;
+  padding: 0;
+  cursor: pointer;
+}
+
+.popup ul.reactions li {
+  list-style: none;
+  width: 20%;
+  margin-right: 2%;
+}
+
+.popup ul.reactions li img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.popup ul.reactions li img.selected {
+  opacity: 1;
+}
+
+.popup input {
+  width: 70%;
+  border-radius: 0;
+  border: 1px solid #707070;
+  padding: 8px;
+  margin: 0px 0 5px 0;
+  font-family: "Hiragino Mincho ProN";
+}
+
+.popup textarea {
+  width: 80%;
+  border-radius: 0;
+  border: 1px solid #707070;
+  padding: 8px;
+  margin: 10px 0;
+  font-family: "Hiragino Mincho ProN";
+  height: 100px;
+}
+
+.popup button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px 15px;
+  font-weight: bold;
+  font-family: "Hiragino Mincho ProN";
+  margin-bottom: 30px;
+}
+
+.popup ul.reviews {
+  padding: 0;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.popup ul.reviews li {
+  list-style: none;
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.popup ul.reviews li img {
+  width: 100px;
+}
+
+.popup ul.reviews .name {
+  font-size: 15px;
+}
+
+.popup ul.reviews .body {
+  font-size: 12px;
+  overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 500px) {
+  .popup .popup-content {
+    top: 20%;
+    left: 10%;
+    width: 76%;
+    padding: 0 4%;
+  }
+}

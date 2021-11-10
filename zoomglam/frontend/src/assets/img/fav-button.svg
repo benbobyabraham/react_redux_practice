@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73.925" height="65.537" viewBox="0 0 73.925 65.537">
+  <defs>
+    <filter id="Rectangle_219" x="0" y="0" width="73.925" height="65.537" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_141" data-name="Group 141" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_219)">
+      <g id="Rectangle_219-2" data-name="Rectangle 219" transform="translate(9 6)" fill="#fff" stroke="#707070" stroke-width="0.2" opacity="0.85">
+        <rect width="55.925" height="47.536" rx="5" stroke="none"/>
+        <rect x="0.1" y="0.1" width="55.725" height="47.336" rx="4.9" fill="none"/>
+      </g>
+    </g>
+    <image id="outline_favorite_black_24dp" width="27.963" height="27.963" transform="translate(13.981 11.185)" opacity="0.501" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABmUlEQVR4AezSgWZCcRiG8TFjozK22LZZ0U0EoAuY7RKiLqBb6AbCdhMbk0RszAxgJugY0QoEIqkoRu8eNBj8nXOq840efgB8H+/Otn/Ttm3bkiigig4mGKGFOvI4hKtD5FFHCyNM0EEVBSSxsmIoYwo5zFFBAn9LoII55DBFGTGEKgMP8qmPHH7LoQ/55CET5vgBFNAMV0szKKBBkCdi8KCQvpcUkud3TmXImDLcURJTyJgpknBWhIwqwlkNMqoGZ23IqDacjSGjxnA2gowawZkHGeXBWQMyqgFnJcioEpxdYAEZs8AF3NELZAs3+SiLBWTEAln46h4y4gG+u8QQitgQlwjUNRSxG4TqForIHUK3hydow56xh5UURxPakCbiWGkn+ILWrItTrKUUutCa9JCCO4NP9JDGRkqteE5dpLHRzuBBIX3iHJF0hHcooA8cI9LieIV8ekMCJtrHIwQ41XAAU+3iZzOJcPxcsNpBDJrxOL6DYYiAHCD+C3M4lF3AMMRAOBD/hOJIhiEKXIDYFafsKBgFo2AUAADaJ+MVYjwIKgAAAABJRU5ErkJggg=="/>
+  </g>
+</svg>
